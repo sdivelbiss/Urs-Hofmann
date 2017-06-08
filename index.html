@@ -11,6 +11,9 @@
 <!--    <link rel="stylesheet" type="text/css" href="css/ekko-lightbox-dark.css"> -->
     <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="shortcut icon" href="images/logo.png">
+    <!-- Magnific Popup core CSS file -->
+<link rel="stylesheet" href="magnific-popup/magnific-popup.css">
 <!--
 Sigma Template
 http://www.templatemo.com/tm-479-sigma
@@ -27,7 +30,7 @@ http://www.templatemo.com/tm-479-sigma
         <div class="row">
         
             <div class="col-lg-4 col-md-12 site-title">
-                <h2><img src="images/logo.png" height="40px" width="80px;"></h2>
+                <h2><img src="images/logo-big.png" height="40px" width="80px;"></h2>
                 
             </div>
             
@@ -70,7 +73,7 @@ http://www.templatemo.com/tm-479-sigma
 
         <div class="row sigma-home single-page-nav">
         
-        	<div class="col-md-offset-2 col-lg-offset-3 col-lg-6 col-md-8 col-sm-12 text-center">
+        	<div class="sc-content col-md-offset-2 col-lg-offset-3 col-lg-6 col-md-8 col-sm-12 text-center">
             	<h1>URS HOFMANN</h1>
             	<p>Experiments on Canvas</p>
                 
@@ -86,77 +89,76 @@ http://www.templatemo.com/tm-479-sigma
 
 <section id="gallery">
 
-	<div class="container-fluid">
+	<div class="container-fluid zoom-gallery">
 
-        <div class="row">
-        
-			<a href="images/urs1.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="Image Title 01">
+        <div class="row zoom-gallery sc-content ">
+			<a href="images/urs1.jpg"  data-gallery="sigma-gallery" data-title="Image Title 01" data-toggle="modal" data-target="#myModal1">
             <img src="images/urs1-fit.png" alt="Image 1" class="img293 img-fluid sigmapad col-lg-4 col-md-6 col-sm-6 img1" height="288px"></a>
 
-			<a href="images/urs2.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="Image Title 02"
+			<a href="images/urs2.jpg" data-toggle="modal" data-target="#myModal2" data-gallery="sigma-gallery" data-title="Image Title 02"
             	data-footer="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non nunc dictum.">
             <img src="images/urs2-fit.png" alt="Image 2" class="img293 img-fluid sigmapad col-lg-4 col-md-6 col-sm-6"></a>
 
-			<a href="images/urs3.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="Image Title 03">
-			<img src="images/urs3-fit.png" alt="Image 3" class="img-fluid sigmapad col-lg-4 col-md-8 col-sm-12"></a>
+			<a href="images/urs3.jpg" data-toggle="modal" data-target="#myModal3" data-gallery="sigma-gallery" data-title="Image Title 03">
+			<img src="images/urs3-fit.png" alt="Image 3" class="img-fluid img-responsive sigmapad col-lg-4 col-md-8 col-sm-12"></a>
 
-			<a href="images/urs7.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="Image Title 04"
+			<a href="images/urs7.jpg" data-toggle="modal" data-target="#myModal4" data-gallery="sigma-gallery" data-title="Image Title 04"
             	data-footer="Aenean et tortor nec odio tempor volutpat nec in dui. Etiam libero turpis, accumsan nec.">
 			<img src="images/urs7-fit.png" alt="Image 4" class="img581 img-fluid sigmapad col-lg-8 col-md-4 col-sm-6"></a>
 
-			<a href="images/urs10.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="Image Title 05">
+			<a href="images/urs10.jpg" data-toggle="modal" data-target="#myModal5" data-gallery="sigma-gallery" data-title="Image Title 05">
 			<img src="images/urs10-fit.png" alt="Image 5" class="img288 img-fluid sigmapad col-lg-4 col-md-4 col-sm-6"></a>
 			
-            <a href="images/urs15.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="Image Title 06">
-            <img src="images/urs15-fit.png" alt="Image 6" class="img-fluid sigmapad col-lg-4" title="Bicycle"></a>
+            <a href="images/urs15.jpg" data-toggle="modal" data-target="#myModal6" data-gallery="sigma-gallery" data-title="Image Title 06">
+            <img src="images/urs15-fit.png" alt="Image 6" class="img-fluid sigmapad col-lg-4" ></a>
             
-            <a href="images/urs16.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="Image Title 01">
+            <a href="images/urs16.jpg" data-toggle="modal" data-target="#myModal7" data-gallery="sigma-gallery" data-title="Image Title 01">
             <img src="images/urs16-fit.png" alt="Image 1" class="img293 img2 img-fluid sigmapad col-lg-4 col-md-6 col-sm-6 img1" height="288px"></a>
 
-            <a href="images/urs17.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="Image Title 02"
+            <a href="images/urs17.jpg" data-toggle="modal" data-target="#myModal8" data-gallery="sigma-gallery" data-title="Image Title 02"
                 data-footer="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non nunc dictum.">
             <img src="images/urs17-fit.png" alt="Image 2" class="img293 img2 img-fluid sigmapad col-lg-4 col-md-6 col-sm-6"></a>
 
-            <a href="images/urs18.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="Image Title 03">
+            <a href="images/urs18.jpg" data-toggle="modal" data-target="#myModal9" data-gallery="sigma-gallery" data-title="Image Title 03">
             <img src="images/urs18-fit.png" alt="Image 3" class="img293 img-fluid sigmapad col-lg-4 col-md-8 col-sm-12"></a>
 
-			<a href="images/urs20.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="Image Title 07">
-			<img src="images/urs20-fit.png" alt="Image 7" class="img-fluid sigmapad col-sm-6" title="Walking"></a>
+			<a href="images/urs20.jpg" data-toggle="modal" data-target="#myModal10" data-gallery="sigma-gallery" data-title="Image Title 07">
+			<img src="images/urs20-fit.png" alt="Image 7" class="img-fluid sigmapad col-sm-6" ></a>
 
             
 
-			<a href="images/urs14.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="Image Title 08">
-			<img src="images/urs14-fit.png" alt="Image 8" class="img-fluid sigmapad col-sm-6" title="Camera"></a>
+			<a href="images/urs14.jpg" data-toggle="modal" data-target="#myModal11" data-gallery="sigma-gallery" data-title="Image Title 08">
+			<img src="images/urs14-fit.png"  class="img-fluid sigmapad col-sm-6" ></a>
             
-            <a href="images/urs4.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="Image Title 09">
-			<img src="images/urs4-fit.png" alt="Image 9" class="img-fluid sigmapad col-lg-3 col-md-8 col-sm-12"></a>
+            <a href="images/urs4.jpg" data-toggle="modal" data-target="#myModal12" data-gallery="sigma-gallery" data-title="Image Title 09">
+			<img src="images/urs4-fit.png"  class="img-fluid sigmapad col-lg-3 col-md-8 col-sm-12"></a>
 
 
-			<a href="images/urs6.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="Image Title 10">
+			<a href="images/urs6.jpg" data-toggle="modal" data-target="#myModal13" data-gallery="sigma-gallery" data-title="Image Title 10">
 			<img src="images/urs6-fit.png" alt="Image 10" class="img-fluid sigmapad col-lg-3 col-md-4 col-sm-6"></a>
 
-			<a href="images/urs8.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="Image Title 11">
-			<img src="images/urs8-fit.png" alt="Image 11" class="img-fluid sigmapad col-lg-3 col-md-4 col-sm-6"></a>
+			<a href="images/urs8.jpg" data-toggle="modal" data-target="#myModal14" data-gallery="sigma-gallery" data-title="Image Title 11">
+			<img src="images/urs8-fit.png"  class="img-fluid sigmapad col-lg-3 col-md-4 col-sm-6"></a>
 
-			<a href="images/urs9.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="Image Title 12">
-			<img src="images/urs9-fit.png" alt="Image 12" class="img-fluid sigmapad col-lg-3 col-sm-12"></a>
+			<a href="images/urs9.jpg" data-toggle="modal" data-target="#myModal15" data-gallery="sigma-gallery" data-title="Image Title 12">
+			<img src="images/urs9-fit.png"  class="img-fluid sigmapad col-lg-3 col-sm-12"></a>
 
-            <a href="images/urs19.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="Image Title 07">
-            <img src="images/urs19-fit.png" alt="Image 7" class="img-fluid sigmapad col-sm-6" title="Walking"></a>
+            <a href="images/urs19.jpg" data-toggle="modal" data-target="#myModal16" data-gallery="sigma-gallery" data-title="Image Title 07">
+            <img src="images/urs19-fit.png"  class="img-fluid sigmapad col-sm-6" ></a>
 
 
-            <a href="images/urs5.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="Image Title 08">
-            <img src="images/urs5-fit.png" alt="Image 8" class="img-fluid sigmapad col-sm-6" title="Camera"></a>
+            <a href="images/urs5.jpg" data-toggle="modal" data-target="#myModal17" data-gallery="sigma-gallery" data-title="Image Title 08">
+            <img src="images/urs5-fit.png" class="img-fluid sigmapad col-sm-6" ></a>
+            
+            <a href="images/urs11.jpg" data-toggle="modal" data-target="#myModal18" data-gallery="sigma-gallery" data-title="Image Title 01">
+            <img src="images/urs11-fit.png"  class="img293 img-fluid sigmapad col-lg-4 col-md-6 col-sm-6 img1" height="288px"></a>
 
-            <a href="images/urs11.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="Image Title 01">
-            <img src="images/urs11-fit.png" alt="Image 1" class="img293 img-fluid sigmapad col-lg-4 col-md-6 col-sm-6 img1" height="288px"></a>
+            <a href="images/urs12.jpg" data-toggle="modal" data-target="#myModal19" data-gallery="sigma-gallery" >
+            <img src="images/urs12-fit.png" class="img293 img-fluid sigmapad col-lg-4 col-md-6 col-sm-6"></a>
 
-            <a href="images/urs12.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="Image Title 02"
-                data-footer="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non nunc dictum.">
-            <img src="images/urs12-fit.png" alt="Image 2" class="img293 img-fluid sigmapad col-lg-4 col-md-6 col-sm-6"></a>
-
-            <a href="images/urs13.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="Image Title 03">
-            <img src="images/urs13-fit.png" alt="Image 3" class="img293 img-fluid sigmapad col-lg-4 col-md-8 col-sm-12"></a>
+            <a href="images/urs13.jpg" data-toggle="modal" data-target="#myModal20" data-gallery="sigma-gallery" data-title="Image Title 03">
+            <img src="images/urs13-fit.png"  class="img293 img-fluid sigmapad col-lg-4 col-md-8 col-sm-12"></a>
+            
 
             <!-- <a href="images/urs1.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="Image Title 01">
             <img src="images/urs1-fit.png" alt="Image 1" class="img-fluid sigmapad col-lg-4 col-md-6 col-sm-6 img1" height="288px"></a>
@@ -228,14 +230,329 @@ http://www.templatemo.com/tm-479-sigma
         
     </div>
 
+<div id="myModal1" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    
+      
+      <div class="modal-body">
+        <img src="images/urs1.png">
+        <p class="whitep">oil on canvas (#1610) 48 x 48 x 1.5  
+</p>
+      </div>
+      
+    
+
+  </div>
+</div>
+<div id="myModal2" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    
+      
+      <div class="modal-body">
+        <img src="images/urs2.png">
+        <p class="whitep">oil on canvas (#1510) 36 x 60 x 1.5</p>
+      </div>
+      
+    
+
+  </div>
+</div>
+<div id="myModal3" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    
+      
+      <div class="modal-body">
+        <img src="images/urs3.png">
+        <p class="whitep">oil on canvas (#6440 Red) 48 x 48 x 1.5</p>
+      </div>
+      
+    
+
+  </div>
+</div>
+<div id="myModal4" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    
+      
+      <div class="modal-body">
+        <img src="images/urs7.png">
+        <p class="whitep">oil on canvas (Blue) 54 x 54 x 1.5</p>
+      </div>
+      
+    
+
+  </div>
+</div>
+<div id="myModal5" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    
+      
+      <div class="modal-body">
+        <img src="images/urs10.png">
+        <p class="whitep">oil on canvas (#1525) 24 x 24 x 2</p>
+      </div>
+      
+    
+
+  </div>
+</div>
+<div id="myModal6" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    
+      
+      <div class="modal-body">
+        <img src="images/urs15.png">
+        <p class="whitep">oil on canvas (Summer Forest) 36 x 36 x 1</p>
+      </div>
+      
+    
+
+  </div>
+</div>
+<div id="myModal7" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    
+      
+      <div class="modal-body">
+        <img src="images/urs16.png">
+        <p class="whitep">oil & glass on canvas (#1606) 22 x 22 x 2.</p>
+      </div>
+      
+    
+
+  </div>
+</div>
+<div id="myModal8" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    
+      
+      <div class="modal-body">
+        <img src="images/urs17.png">
+        <p class="whitep">oil  on canvas 24 x 24 x 1</p>
+      </div>
+      
+    
+
+  </div>
+</div>
+<div id="myModal9" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    
+      
+      <div class="modal-body">
+        <img src="images/urs18.png">
+        <p class="whitep">oil, oil pastel & glass on canvas (#1518) 24 x 24 x 1</p>
+      </div>
+      
+    
+
+  </div>
+</div>
+<div id="myModal10" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    
+      
+      <div class="modal-body">
+        <img src="images/urs20.png">
+        <p class="whitep">oil on canvas (#641715)  36 x 60 x 1.5
+</p>
+      </div>
+      
+    
+
+  </div>
+</div>
+<div id="myModal11" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    
+      
+      <div class="modal-body">
+        <img src="images/urs14.png">
+        <p class="whitep">oil on canvas (#641515) 36 x 36 x 1.5
+</p>
+      </div>
+      
+    
+
+  </div>
+</div>
+<div id="myModal12" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    
+      
+      <div class="modal-body">
+        <img src="images/urs4.png">
+        <p class="whitep">30 x 30 x 1.5  NFS
+</p>
+      </div>
+      
+    
+
+  </div>
+</div>
+<div id="myModal13" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    
+      
+      <div class="modal-body">
+        <img src="images/urs6.png">
+        <p class="whitep">oil on canvas (#1201) 12 x 12 x 1
+</p>
+      </div>
+      
+    
+
+  </div>
+</div>
+<div id="myModal14" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    
+      
+      <div class="modal-body">
+        <img src="images/urs8.png">
+        <p class="whitep">oil on canvas (#1521) 20 x 15 x 1
+</p>
+      </div>
+      
+    
+
+  </div>
+</div>
+<div id="myModal15" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    
+      
+      <div class="modal-body">
+        <img src="images/urs9.png">
+        <p class="whitep">oil on canvas (#1515) 12 x 12 x 2
+
+</p>
+      </div>
+      
+    
+
+  </div>
+</div>
+<div id="myModal16" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    
+      
+      <div class="modal-body">
+        <img src="images/urs19.png">
+        <p class="whitep">oil on canvas (Energy) 35 x 35 x 1.5</p>
+      </div>
+      
+    
+
+  </div>
+</div>
+<div id="myModal17" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    
+      
+      <div class="modal-body">
+        <img src="images/urs5.png">
+        <p class="whitep">oil on canvas (#647714)  54 x 54 x 1.5
+
+</p>
+      </div>
+      
+    
+
+  </div>
+</div>
+<div id="myModal18" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    
+      
+      <div class="modal-body">
+        <img src="images/urs11.png">
+        <p class="whitep">oil on canvas (Inspiration point)  48 x 48 x 1.5 NFS
+</p>
+      </div>
+      
+    
+
+  </div>
+</div>
+<div id="myModal19" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    
+      
+      <div class="modal-body">
+        <img src="images/urs12.png">
+        <p class="whitep">oil and oil pastel on canvas (#0214) 36 x 36 x 1.5
+</p>
+      </div>
+      
+    
+
+  </div>
+</div>
+<div id="myModal20" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    
+      
+      <div class="modal-body">
+        <img src="images/urs13.png">
+        <p class="whitep">oil and oil pastel on canvas (#1519) 12 x 12 x 1
+</p>
+      </div>
+      
+    
+
+  </div>
+</div>
+
+
 </section>
 
 <section id="about">
 
-	<div class="container-fluid">
+	<div class="container-fluid ">
     
     	<div class="row sigma-section-header">
-        	<div class="text-center">
+        	<div class="text-left sc-content ">
         		<h1>About</h1>
                 <p>
                 
@@ -263,11 +580,11 @@ http://www.templatemo.com/tm-479-sigma
         <div class="row">
             <div class="sigmano col-lg-8 col-md-12">
                 
-                <form action="#contact" method="post" id="contact-form">
+                <form action="#contact" method="post" id="contact-form" action="send.php" method="post" enctype="text/plain">
                 <div class="col-md-6">
                		<fieldset class="form-group">
                         <label for="name">Your Name</label>
-                        <input type="text" class="form-control" id="name" placeholder="Write a full name">
+                        <input type="text" class="form-control" id="name" placeholder="Full name">
                   	</fieldset>
                   
                   	<fieldset class="form-group">
@@ -287,11 +604,11 @@ http://www.templatemo.com/tm-479-sigma
                     	<textarea class="form-control" id="message" rows="4" placeholder="Write a message"></textarea>
                   	</fieldset>
                   
-                  	<div class="checkbox">
+                  	<!-- <div class="checkbox">
                     	<label>
                       		<input type="checkbox"> I am not a robot.
                     	</label>
-                  	</div>
+                  	</div> -->
                   
                   	<button type="submit" class="btn btn-success btn-lg">Submit</button>
                 </div>  
@@ -301,7 +618,7 @@ http://www.templatemo.com/tm-479-sigma
             
 			<div class="sigma-content col-lg-4 col-md-12">
         		
-          		<p><span class="contact-icon fa fa-envelope-o"></span> urssru&#64;comcast.net</p>
+          		<p><span class="contact-icon fa fa-envelope-o"></span> neluniverse&#64;gmail.com</p>
                 <p><span class="contact-icon fa fa-phone"></span> (415) 336-3326</p>
             </div>
         </div>
@@ -339,7 +656,11 @@ http://www.templatemo.com/tm-479-sigma
 		<script src="js/bootstrap.min.js"></script>
         <script src="js/ekko-lightbox.min.js"></script>
         <script src="js/jquery.singlePageNav.min.js"></script>
-        <script>
+<!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<!-- Magnific Popup core JS file -->
+<script src="js/jquery.magnific-popup.js"></script>        <script>
 
             // Prevent console.log from generating errors in IE for the purposes of the demo
             if ( ! window.console ) console = { log: function(){} };
